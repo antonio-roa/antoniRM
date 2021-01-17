@@ -21,7 +21,7 @@ class Producto extends Migration
         $table->String( 'producto', 200 ); //Varchar
         $table->unsignedBigInteger( 'existencias'); //int
         $table->float( 'precio_unitario', 10, 2 ); // float
-        $table->enum('unidad-medida',
+        $table->enum('unidad_medida',
         [
             'Pieza',
             'Caja',
